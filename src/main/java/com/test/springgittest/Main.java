@@ -12,9 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Main {
 
-    @GetMapping("/first")
-    public String getFirst(){
-        return "Hello GIT";
+    @GetMapping( "/first" )
+    public String getFirst() {
+
+        String welcome = "Hello Git";
+        return welcome;
+
+
     }
 
 
